@@ -23,11 +23,11 @@ h1 {
   color: #fff;
   font-size: 25px;
   float: left;
-  animation-name: animacion_logo;
+  /* animation-name: animacion_logo;
   animation-iteration-count: infinite;
   animation-timing-function: steps();
   animation-duration: 5s;
-  animation-delay: 1s;
+  animation-delay: 1s; */
 }
 @keyframes animacion_logo {
   10% {
@@ -120,16 +120,16 @@ img {
 }
 
 .promos img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   margin: 0px 50px 0px 20px;
   box-shadow: 1px 1px 5px black;
   border-radius: 10px;
-  animation-name: animacion2;
+  /* animation-name: animacion2;
   animation-iteration-count: initial;
   animation-timing-function: linear;
   animation-duration: 3s;
-  animation-delay: 1s;
+  animation-delay: 1s; */
 }
 
 .promo {
@@ -139,6 +139,7 @@ img {
 .promo img:hover {
   transform: scale(1.1);
   transition: all 0.8s;
+  
 }
 
 #borde {
@@ -154,15 +155,16 @@ img {
   margin: 40px;
 }
 .conoce {
-  width: 500px;
-  height: 200px;
+  width: 500px auto;
+  height: 200px auto;
   color: white;
   text-shadow: 0px 0px 5px;
-  animation-name: animacion1;
+  
+  /* animation-name: animacion1;
   animation-iteration-count: infinite;
   animation-timing-function: steps();
   animation-duration: 10s;
-  animation-delay: 1s;
+  animation-delay: 1s; */
 }
 @keyframes animacion1 {
   0% {
