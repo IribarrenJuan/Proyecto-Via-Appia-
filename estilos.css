@@ -29,23 +29,8 @@ h1 {
   animation-duration: 5s;
   animation-delay: 1s; */
 }
-@keyframes animacion_logo {
-  10% {
-    color: #636363;
-  }
-  25% {
-    color: black;
-  }
-  3s {
-    color: black;
-  }
-  50% {
-    font-size: 30px;
-  }
-  75% {
-    font-size: 40px;
-  }
-}
+
+
 .opciones {
   float: right;
 }
@@ -166,47 +151,8 @@ img {
   animation-duration: 10s;
   animation-delay: 1s; */
 }
-@keyframes animacion1 {
-  0% {
-    width: 100px;
-  }
-  2s {
-    width: 200px;
-  }
 
-  25% {
-    width: 300px;
-  }
-  50% {
-    width: 500px;
-    color: black;
-  }
-  75% {
-    width: 700px;
-  }
-  100% {
-    text-shadow: 0px 0px 5px;
-    width: 100px;
-    color: white;
-  }
-}
-@keyframes animacion2 {
-  25% {
-    transform: rotate(5deg);
-  }
-  40% {
-    transform: rotate(10deg);
-  }
-  50% {
-    transform: rotate(200deg);
-  }
-  75% {
-    transform: rotate(300deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
 footer {
   margin: auto;
   padding: 15px;
@@ -229,8 +175,8 @@ footer a {
 .boxnosotros {
   border: solid rgb(0, 0, 0) 5px;
   padding: 70px;
-  width: 300px auto;
-  height: 100% auto;
+  height: 1600px auto;
+  width: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -250,10 +196,10 @@ footer a {
 .carta {
   border: rgb(8, 8, 8) solid 2px;
 
-  padding: 300px;
+  padding: 400px;
   overflow: hidden;
-  height: 500px auto;
-  width: auto;
+  height: 1300px auto;
+  width:100%;
 }
 .carta img {
   width: 300px auto;
@@ -286,18 +232,36 @@ footer a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   overflow: hidden;
+  width: 100% ;
+  height: 1600px;
+  
+}
+.sucursales h3{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  overflow: hidden;
+  width: 100% ;
+  height: 1600px;
 }
 .sucursales img {
-  width: 400px;
-  height: 400px;
-  margin: 300px 20px 40px 20px;
+  width: 400px auto;
+  height: 400px auto ;
+  margin: 300px 20px 40px 20px auto;
+  
 }
-.sucursal {
+.sucursal img:hover{
+  transform: scale(1.1);
+  transition: all 0.8s;
+  
+}
+/* .sucursal {
   float: left;
   text-align: center;
-}
+} */
 .mainSucursal {
-  height: 1200px;
+  height: 1600px auto;
+  
 }
 /* SECCION FLEXBOX */
 .articuloContenedor {
@@ -326,11 +290,11 @@ footer a {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-.contenedor .boxnosotros {
+/* .contenedor .boxnosotros {
   grid-template-columns: 1;
   grid-template-rows: 3;
-}
-@media only screen and (min-width: 200px) {
+}  */
+ /* @media only screen and (min-width: 200px) {
   .contenedor {
     grid-template-columns: 1;
     grid-template-rows: 3;
@@ -347,4 +311,4 @@ footer a {
     grid-template-columns: repeat(1);
     grid-template-rows: repeat(4);
   }
-}
+} */
