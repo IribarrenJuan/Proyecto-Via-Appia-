@@ -209,22 +209,30 @@ footer a {
 .contacto {
   background-color: rgba(8, 8, 8, 0.897);
   border: solid rgb(0, 0, 0) 5px;
-  height: 800px;
+  height: 1600px auto;
   width: 100%;
-  background-size: cover;
+  overflow: hidden;
+   background-size: cover;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 .formulario {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size:20px;
+  padding-top: 50px;
+  padding-bottom:300px;
+  margin: 10px;
+  
+  
+  
 }
 .formulario input {
   padding: 2px;
-  margin: 10px auto;
+  margin: 5px ;
 }
 .formulario label {
-  padding: 22px;
+  padding: 10px;
   text-align: center;
 }
 .sucursales {
@@ -236,14 +244,7 @@ footer a {
   height: 1600px;
   
 }
-.sucursales h3{
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  overflow: hidden;
-  width: 100% ;
-  height: 1600px;
-}
+
 .sucursales img {
   width: 400px auto;
   height: 400px auto ;
