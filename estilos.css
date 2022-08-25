@@ -23,16 +23,36 @@ h1 {
   color: #fff;
   font-size: 25px;
   float: left;
-  /* animation-name: animacion_logo;
+  margin-left:20px;
+  animation-name: animacion_logo;
   animation-iteration-count: infinite;
   animation-timing-function: steps();
   animation-duration: 5s;
-  animation-delay: 1s; */
+  animation-delay: 1s;
 }
-
+@keyframes animacion_logo{
+  10%{
+    color: #636363;
+    
+  }
+  25%{
+    color: black;
+     }
+    3s{
+      color:black;
+    }
+    50%{
+      font-size:30px;
+    }
+    75%{
+      
+      font-size:40px;
+    }
+}
 
 .opciones {
   float: right;
+  
 }
 .opciones li {
   list-style: none;
@@ -43,7 +63,9 @@ h1 {
   color: white;
 }
 .opciones a:hover {
-  color: darkgrey;
+  color: rgb(231, 226, 226);
+  text-shadow: #f5f3f3 0px 0px 5px;
+  transition: all 0.7s;
 }
 
 main {
@@ -199,6 +221,7 @@ footer a {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  
 }
 .boxnosotros p {
   margin: 100px;
