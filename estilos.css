@@ -15,6 +15,7 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 20px;
   font-size: 25px;
+  position:;
 }
 .header h2 {
   font-size: 30px;
@@ -285,22 +286,35 @@ footer a {
   height: 1600px;
   
 }
-
+.sucursal{
+  text-align: center;
+  margin: 10px;
+}
+.sucursal a{
+  text-decoration: none;
+  color: white;
+  
+  
+  }
+  .sucursal a:hover{
+    text-shadow: #f5f3f3 0px 0px 5px;
+    transition: all 0.8s;
+    color: #fcf9fd;
+    
+  }
 .sucursales img {
   width: 400px auto;
   height: 400px auto ;
   margin: 300px 20px 40px 20px auto;
-  
-}
+  filter: grayscale(100%);
+  }
 .sucursal img:hover{
   transform: scale(1.1);
   transition: all 0.8s;
+  filter: grayscale(0%);
   
 }
-/* .sucursal {
-  float: left;
-  text-align: center;
-} */
+ 
 .mainSucursal {
   height: 1600px auto;
   
